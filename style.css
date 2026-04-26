@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(37 27 95);
+    background-color: #191c1f;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -7,35 +7,8 @@ body {
     margin: 0px;
 }
 
-.topbar {
-    background-color: rgb(18 0 65 / 46%);
-    height: 75px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: relative;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.topbar li {
-    text-align: center;
-    list-style: none;
-    width: 75px;
-    margin: 0px 20px;
-    padding: 50px;
-}
-
-.link-cls {
-    font-size: 25px;
-    text-align: justify;
-}
-
-.link-cls:link, .link-cls:visited {
-    color: white;
-    text-decoration: none;
-    text-align: justify;
+.carousel-item {
+    height: 920px
 }
 
 .main {
@@ -52,7 +25,6 @@ body {
 
 .main li {
     color: white;
-    
 }
 
 .description {
@@ -70,6 +42,7 @@ body {
 }
 
 .description li h2 {
+    padding-top: 35px;
     color: white;
     text-align: center;
 }
@@ -80,7 +53,7 @@ body {
 }
 
 .bottombar {
-    background-color: rgb(18 0 65 / 46%);
+    background-color: #212529;
     height: 150px;
     width: 100%;
     display: flex;
@@ -102,6 +75,7 @@ body {
     color: white;
     list-style: none;
     padding-inline: 50px;
+    padding-top: 20px;
 }
 
 .linklist {

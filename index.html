@@ -1,70 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg text-bg-dark p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand h1 text-white" href="#">My Portfolio</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active h1 text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h1 text-white" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h1 text-white" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <title>Portfolio</title>
-</head>
-<body>
-    
-    <div class="topbar">
-        <li>
-            <a class="link-cls" href="#Home">Home</a>
-        </li>
-        <li>
-            <a class="link-cls" href="#Projects">Projects</a>
-        </li>
-        <li>
-            <a class="link-cls" href="#Contacts">Contacts</a>
-        </li>
-    </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/image1.png" class="d-block w-100 object-fit" alt="IMAGE 1" >
+                    <div class="carousel-caption">
+                        <h5>1999-2001</h5>
+                        <p>First company I ever worked for, great start for me.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/image2.png" class="d-block w-100 object-fit" alt="IMAGE 2">
+                    <div class="carousel-caption">
+                        <h5>2014-2026</h5>
+                        <p>A great second company. Made their entire site.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/image3.png" class="d-block w-100 object-fit" alt="IMAGE 3">
+                    <div class="carousel-caption">
+                        <h5>2026-2077</h5>
+                        <p>Longest I've ever worked for one company. Made it from scratch.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-    <div class="main">
-        <h1>
-            Ласкаво просимо на мою сторінку портфоліо
-        </h1>
-        <ol class="description">
-            <li>
-                <h2>
-                    Мій досвід
-                </h2>
-                Мене звуть Шовкун Владислав. Я програміст зі стажем понад 5 років. Знаю мови програмування такі як: C++, Python та Lua.
-            </li>
-            <li>
-                <h2>
-                    Тут інший текст який я ще не зробив
-                </h2>
-            </li>
-        </ol>
-    </div>
-    <div class="bottombar">
-        <ol class="bottominfo">
-            <li>
-                Contacts
-                <ol class="linklist">
-                    <li>
-                         <a href="#Contacts/Discord">Discord</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Rorty291">Github</a>
-                    </li>
-                </ol>
-            </li>
-            <li>
-                Projects
-                <ol class="linklist">
-                    <li>
-                        <a href="#Projects/Latest">Latest Projects</a>
-                    </li>
-                    <li>
-                        <a href="#Projects/Best">Best Projects</a>
-                    </li>
-                </ol>
-            </li>
-        </ol>
-    </div>
-</body>
+        <div class="container-fluid p-0">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-7 vh-100 d-flex flex-column justify-content-center px-5 text-white fs-5">
+                    <h1>Welcome to my portfolio!</h1>
+                    <p></p>
+                    <p></p>
+                    <p>I'm Vlad Shovkun, a LuaU programmer with over 5 years of experience.</p>
+                    I am 18 years old and currently live in Europe / Ukraine.
+                    <p></p>
+                    <p></p>
+                    <p>I know many programming languages other than LuaU, like: C++, Python, C#.</p>
+                    The code I produce is clean, easy to read and very efficient.
+                    <p></p>
+                    <p></p>
+                    <p>You can contact me via Discord, Instagram, X (aka Twitter) or Telegram.</p>
+                    <ul>
+                        <li class="fs-6">
+                            Discord: @rorty
+                        </li>
+                        <li class="fs-6">
+                            Instagram: @rorty2914
+                        </li>
+                        <li class="fs-6">
+                            X (Twitter): @RealRorty
+                        </li>
+                        <li class="fs-6">
+                            Telegram: @Rorty29
+                        </li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <h1>I'm thrilled to be working with you in the future!</h1>
+                </div>
+
+                <div class="col-md-5 vh-100">
+                    <img src="assets/image4.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Background">
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-bg-dark text-center">
+            <div class="container-fluid">
+                <section style="padding-top: 25px; padding-bottom: 25px;">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contacts</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-white" href="https://github.com/Rorty291">Github</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href="https://x.com/RealRorty">Twitter</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href="https://t.me/Rorty29">Telegram</a>
+                            </li>
+                            <li>
+                                <a class="text-white" href="https://www.instagram.com/rorty2914">Instagram</a>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Projects</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                            <a class="text-white" href="#!">Best Projects</a>
+                            </li>
+                            <li>
+                            <a class="text-white" href="#!">Latest Projects</a>
+                            </li>
+                            <li>
+                            <a class="text-white" href="#!">Pricing</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>
